@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 340px;
+    height: 160px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+a {
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-color: coral;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#reset{
+    margin: 0 auto;
+    background-color: blue;
+    position: relative;
+    top: -120px;
+    height: 40px;
+    padding: 0 10px;
+
+}
+
+.stopwatch {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -130px;
+    color: dimgrey;
+}
