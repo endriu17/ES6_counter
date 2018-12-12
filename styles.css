@@ -8,7 +8,6 @@ body {
     align-content: center;
     width: 340px;
     height: 160px;
-    background-color: gainsboro;
     margin: 0 auto;
     padding: 20px;
 }
@@ -18,32 +17,32 @@ body {
 a {
     display: block;
     width: 110px;
-    height: 40px;
-    background-color: coral;
+    height: 35px;
+    background-color: #ff7f50;
     text-align: center;
     font-size: 26px;
     font-weight: 600;
     text-decoration: none;
     color: white;
-    padding: 0 10px;
+    padding: 5px;
     margin: 0 5px;
+    border-radius: 4px;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.1);
+	transition: 0.5s;
 }
 
 #reset{
-    margin: 0 auto;
     background-color: blue;
-    position: relative;
-    top: -120px;
-    height: 40px;
-    padding: 0 10px;
-
 }
 
 .stopwatch {
     font-size: 46px;
     font-weight: bold;
     text-align: center;
-    position: relative;
-    top: -130px;
     color: dimgrey;
 }

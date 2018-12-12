@@ -95,6 +95,11 @@ var Stopwatch = function (_React$Component) {
         "div",
         null,
         React.createElement(
+          "div",
+          { className: "stopwatch" },
+          this.format(this.state.times)
+        ),
+        React.createElement(
           "nav",
           { className: "controls" },
           React.createElement(
@@ -106,19 +111,13 @@ var Stopwatch = function (_React$Component) {
             "a",
             { className: "button", id: "stop", onClick: this.stop },
             "Stop"
+          ),
+          React.createElement(
+            "a",
+            { className: "button", id: "reset", onClick: this.stopClear },
+            "Reset"
           )
-        ),
-        React.createElement(
-          "div",
-          { className: "stopwatch" },
-          this.format(this.state.times)
-        ),
-        React.createElement(
-          "a",
-          { className: "button", id: "reset", onClick: this.stopClear },
-          "Reset"
-        ),
-        React.createElement("ul", { className: "results" })
+        )
       );
     }
   }]);
